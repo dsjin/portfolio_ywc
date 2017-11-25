@@ -1,0 +1,371 @@
+/*
+  DSJIN's Profile Website CSS
+*/
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Trirong:300&subset=thai');
+@import url('animate.css');
+body{
+  background-color: #8C827B;
+}
+.bg{
+  height: auto;
+  background-image: url('../src/img/section1_bg.jpg');
+  background-size:  cover;
+  background-repeat:   no-repeat;
+  background-position: center left 60px;
+  filter: grayscale(90%) ;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+.textlogo{
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.textlogo h1{
+  font-size: 10em;
+  display: block;
+  font-family: 'Monoton', cursive;
+  -webkit-animation-name: zoom;
+  -moz-animation-name:zoom;
+  animation-name:zoom;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.box{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  background-color: #8C6951;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.font-monoton{
+  font-family: 'Monoton', cursive;
+}
+.font-ubuntu{
+  font-family: 'Ubuntu', cursive;
+  font-weight: 300;
+}
+.textlogo h5{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  color: #403025;
+  transform: scale(0.0);
+  -webkit-animation-name: zoom;
+  -moz-animation-name:zoom;
+  animation-name:zoom;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.arrow{
+  width: 4%;
+  margin-top: 20px;
+}
+.arrow-animation{
+  transform: scale(0);
+  -webkit-animation-name: spin;
+  -moz-animation-name:spin;
+  animation-name:spin;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.up-and-down{
+  -webkit-animation-name: upanddown;
+  -moz-animation-name:upanddown;
+  animation-name:upanddown;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+.fade-left{
+  -webkit-animation-name: fadeleft;
+  -moz-animation-name:fadeleft;
+  animation-name:fadeleft;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.img-spin{
+  -webkit-animation-name: spin;
+  -moz-animation-name:spin;
+  animation-name:spin;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.infomation-zoom{
+  -webkit-animation-name: zoom;
+  -moz-animation-name:zoom;
+  animation-name:zoom;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+#information{
+  margin: auto;
+}
+.profile{
+  padding-left: 15%;
+  padding-right: 10%
+}
+#profile-detail{
+  margin-top:10%;
+  display: flex;
+}
+#profile-title , #skills-title , #activities-title , #works-title , #appendix-title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+}
+#profile-title h2 , #skills-title h2 , #activities-title h2, #works-title h2,#appendix-title h2{
+  font-family: 'Monoton', cursive;
+  font-size: 4em;
+  text-decoration: underline;
+}
+#img-containner{
+  width: 25%
+}
+#img-profile{
+  transform: scale(0);
+  padding-top: 15px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+#img-profile img,.skills-containner img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+#skills-detail{
+  display: flex;
+  justify-content: center;
+}
+#information{
+  float: right;
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 2em;
+  padding: 0px 0px 20px 20px;
+}
+#information p{
+  transform: scale(0);
+  margin:  0;
+  padding-bottom: 10px
+}
+#skills-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.skills{
+  padding-left: 13%;
+  padding-right: 10%;
+}
+.skills-container{
+  border-radius: 50%;
+  margin-right: 5%;
+  float: left;
+  background-color: #D8C9BE;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10%;
+  transform: scale(0);
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-containner img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  padding-bottom: 30px;
+}
+.skills-containner p{
+}
+.slide-detail , .slide-detail-appendex{
+  padding-top: 0.5%;
+  transform: scale(0);
+}
+.slide-detail figcaption , .slide-detail-appendex figcaption{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.slide-detail img , .slide-detail-appendex img{
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+}
+.fp-slidesNav{
+  transform: scale(0) !important;
+}
+.img-con{
+  margin: 0 auto;
+  float: right;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  margin-right: 5%;
+}
+.img-con-new{
+  width: 25%;
+  margin-left: auto;
+}
+.works-img{
+  max-width: 100%;
+  float: right;
+  width: 60%
+}
+.works-img-long{
+  max-width: 100%;
+  float: right;
+  width: 100%
+}
+.balloon-con{
+  display: flex;
+  width: 60%;
+  align-self: center;
+}
+.long {
+  position: absolute;
+  width: 30%;
+  top: 0;
+  right: 5%;
+}
+.long-new {
+  width: 30%;
+}
+.wide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px 300px;
+  width: 100%;
+  height: 400px
+}
+.img1{
+  background-image: url('../src/img/reservation.PNG');
+}
+.img2{
+  background-image: url('../src/img/port.PNG');
+}
+.img3{
+  background-image: url('../src/img/tinner.png');
+}
+.balloon{
+  /*margin-top: 10%;*/
+  margin-left: 5%;
+  background-color: #FFD6A6;
+  width: 60%;
+  padding: 30px 10px 30px 10px;
+  border-radius: 10px;
+  font-family: 'Trirong', serif;
+}
+.balloon p{
+  font-size: 1.3em;
+}
+.works .row{
+  padding-top: 0.5%
+}
+.text-center{
+  position: relative;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.row{
+  transform: scale(0);
+}
+.works-container{
+  transform: scale(0);
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.contact h1{
+  font-family: 'Ubuntu', cursive;
+  text-align: center;
+  font-size: 4em
+}
+.contact-items{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact i::before{
+  padding-right: 20px;
+}
+.contact span{
+  font-size: 0.5em;
+  vertical-align: middle;
+  font-family: 'Ubuntu', cursive;
+}
